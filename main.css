@@ -109,12 +109,3 @@ h4 {
 }
 
 
-.course-list {
-            margin-left: 20px;
-            padding: 0;
-        }
-        .course-item {
-            margin-bottom: 15px;
-            padding-left: 10px;
-            border-left: 2px solid #ccc; /* Optional: visually separate items */
-        }
