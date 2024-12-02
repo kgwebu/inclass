@@ -3,61 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courses Taken</title>
+    <title>Courses</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        .course-list {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding: 0;
+        }
+        .course-list li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="courses.html" class="active">Courses Taken</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <h1>Courses Taken</h1>
-        <p>Here is a list of courses I have completed:</p>
+    <aside>
+        <!-- Optional sidebar content -->
+    </aside>
 
-        <section>
-            <h2>Computer Science</h2>
-            <ul>
-                <li>Introduction to Programming</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Web Development</li>
-                <li>Database Management Systems</li>
-                <li>Software Engineering</li>
-            </ul>
-        </section>
+    <section>
+        <h1>Our Courses</h1>
+        <p>We offer a variety of courses designed to help you grow your skills and achieve your goals. Explore our offerings below:</p>
+        <ul class="course-list">
+            <li>
+                <h2>Web Development</h2>
+                <p>Learn HTML, CSS, JavaScript, and more to build modern, responsive websites.</p>
+            </li>
+            <li>
+                <h2>Data Science</h2>
+                <p>Master Python, data analysis, and machine learning to excel in data-driven industries.</p>
+            </li>
+            <li>
+                <h2>Graphic Design</h2>
+                <p>Develop creative design skills with tools like Photoshop, Illustrator, and Figma.</p>
+            </li>
+            <li>
+                <h2>Digital Marketing</h2>
+                <p>Understand SEO, social media marketing, and analytics to grow your online presence.</p>
+            </li>
+        </ul>
+    </section>
 
-        <section>
-            <h2>Mathematics</h2>
-            <ul>
-                <li>Calculus I & II</li>
-                <li>Linear Algebra</li>
-                <li>Discrete Mathematics</li>
-                <li>Probability and Statistics</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Other Courses</h2>
-            <ul>
-                <li>Introduction to Psychology</li>
-                <li>Technical Writing</li>
-                <li>Ethics in Technology</li>
-            </ul>
-        </section>
-    </main>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
